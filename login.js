@@ -21,6 +21,9 @@ function salvarUser() {
         dadosLista.push(nomeUser);
     
         criaLista()
+    }else{
+        alert("Digite um nome")
+        document.getElementById("nomeUser").focus();
     }
 }
 
